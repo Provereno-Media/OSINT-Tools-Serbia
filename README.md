@@ -4,7 +4,7 @@
 
 A list of free or free-with-registration OSINT resources for investigations related to Serbia. Most Serbian registers use Serbian (Latin or Cyrillic); some landing pages and cross-border tools offer English. Public browsing is not equivalent to unrestricted access to personal records, certified extracts, or bulk downloads. Courts and case law are separate from maritime vessels; the latter appear only under Vehicles → Maritime.
 
-**Last Updated:** 27 September 2026 (landing-page validation; individual searches and the raw flag image were not independently tested)
+**Last Updated:** 27 September 2026 (resource landing pages checked; individual searches behind logins/CAPTCHA and the raw flag image could not all be independently tested)
 
 ## Contributions
 
@@ -22,6 +22,7 @@ Feel free to join this project — [OSINT For Countries V2.0](https://github.com
 
 ## Open Data portals
 
+- [Serbian Open Data Portal](https://data.gov.rs/) — Official datasets from Serbian public bodies, including downloadable and API-linked data; Serbian; free public browsing.
 - [Statistical Office of the Republic of Serbia](https://www.stat.gov.rs/en-us/) — Official population, economic and census statistics; Serbian/English; free public browsing.
 - [National Bank of Serbia statistics](https://www.nbs.rs/en/drugi-nivo-navigacije/statistika/) — Official monetary, exchange-rate and external-sector data; Serbian/English; free public browsing.
 - [Supreme Court court-practice database](https://www.vrh.sud.rs/en/court-practice-database) — Official selected decisions and case law, not a register of every filed case; Serbian/English pages; free browsing.
@@ -32,7 +33,7 @@ Feel free to join this project — [OSINT For Countries V2.0](https://github.com
 
 - [Serbian Business Registers Agency (APR) searches](https://apr.gov.rs/searches.4090.html) — Official company, entrepreneur and other register search hub; search interfaces in Serbian; free browser access, no bulk harvesting.
 - [APR published financial statements](https://www.apr.gov.rs/registers/financial-statements.1698.html) — Official filings and financial-statement search; Serbian search, English guidance; free browsing, paid certified products excluded.
-- [APR beneficial ownership records](https://www.apr.gov.rs/registers/the-central-records-of-beneficial-owners/about-central-records-.4082.html) — Official beneficial owners searchable by company registration number; Serbian/English guidance; free portal search, ⚠️ registration through eID required; certified extracts cost extra.
+- [APR beneficial ownership records](https://www.apr.gov.rs/registers/the-central-records-of-beneficial-owners/about-central-records-.4082.html) — Official beneficial-owner search by company registration number; Serbian search, English guidance; ⚠️ free APR/eID account required, but no qualified e-signature for searching; certified extracts cost extra.
 - [APR Pledge Register](https://www.apr.gov.rs/registers/pledges/data-search.1735.html) — Official registered pledges searchable by parties and collateral; Serbian search, English guidance; free browser access.
 - [APR Bankruptcy Estate Register](https://www.apr.gov.rs/registers/bankruptcy-estate/about-register.1637.html) — Official bankruptcy-estate records linked to competent courts; Serbian/English guidance; public register entry point.
 - [APR Media Register](https://www.apr.gov.rs/registers/media/data-search.1728.html) — Official registered media and publisher information; Serbian search, English guidance; free browser access.
@@ -41,12 +42,16 @@ Feel free to join this project — [OSINT For Countries V2.0](https://github.com
 - [NBS Single Register of Accounts](https://www.nbs.rs/en/drugi-nivo-navigacije/servisi/jedinstveni-registar-racuna/index.html) — Official bank-account register for business verification; Serbian search, English guidance; free public entry point.
 - [NBS debtors in enforced collection](https://nbs.rs/sr/drugi-nivo-navigacije/servisi/duznici-pn/) — Official debtor/blockage lookup entry point; Serbian; public browser access, with paid certificates outside scope.
 - [Intellectual Property Office E-Trademark Register](https://www.zis.gov.rs/en/databases/trademark/) — Official Serbian trademark applications, right holders, transfers, licences and pledges; Serbian/English guidance; free public search, certified extracts separate.
+- [Tax Administration PIB Register](https://www.purs.gov.rs/pib.html) — Official taxpayer basics by Serbian tax ID; Serbian; free manual lookup with image-code challenge.
+- [Tax Administration VAT Register](https://purs.gov.rs/pravna-lica/pdv/registar.html) — Official registered VAT-payer status by PIB; Serbian; free manual lookup with anti-bot slider.
+- [REM Media Service Providers Register](https://www.rem.rs/en/media-service-providers-register) — Official broadcasting and on-demand provider licences and status, distinct from APR's publisher register; Serbian/English; free public browsing.
 
 ## Maps
 
 - [RGZ e-Cadastre public access](https://www.rgz.gov.rs/public-access) — Official property rights and parcel lookup by parcel number or address; Serbian search, English guidance; free basic public data, not full personal records.
 - [RGZ GeoSrbija](https://www.rgz.gov.rs/en-geo-srbija) — Official national geospatial layers and infrastructure overview; Serbian/English guidance; free map browsing.
 - [RGZ Property Price Register](https://www.rgz.gov.rs/data-from-the-real-estate-price-register) — Official map of approximate property-sale locations and prices; Serbian/English guidance; free public view, professional access and reports have different conditions.
+- [RGZ Address Register open data](https://data.gov.rs/sr/datasets/adresni-registar/) — Official street and house-number geometry for Serbia in CSV/GPKG; Serbian; free download, catalogue updated separately from each distribution.
 - [Statistical Office Spatial Units Register and GIS](https://www.stat.gov.rs/en-us/oblasti/registar-prostornih-jedinica-i-gis/) — Official administrative and statistical spatial-unit data; Serbian/English; free public information.
 - [Beoland GIS](https://www.beoland.com/en/plans/gis-beoland.html) — Official Belgrade planning and cadastral map layers; Serbian/English; free public viewing, limited to Belgrade.
 
@@ -56,6 +61,7 @@ Feel free to join this project — [OSINT For Countries V2.0](https://github.com
 
 - [Association of Serbian Insurers citizen services](https://uos.rs/en/citizen-services/) — Sector association's vehicle-insurance and accident-related search entry point; Serbian/English; free public basic search, not unrestricted plate-to-owner lookup.
 - [Road Traffic Safety Agency integrated database](https://bazaabs.abs.gov.rs/absPortal/) — Official road safety, risk and report maps, not private vehicle ownership; Serbian; free public overview.
+- [Police-area road accident open data](https://data.gov.rs/sr/datasets/podatsi-o-saobratshajnim-nezgodama-po-politsijskim-upravama-i-opshtinama/) — Official accident datasets by police area and municipality; Serbian; free download, not individual vehicle ownership records.
 
 ### Maritime
 
@@ -75,6 +81,7 @@ Feel free to join this project — [OSINT For Countries V2.0](https://github.com
 - [RATEL Ported Number Registry](https://prenesibroj.rs/?lang=en) — Official current network/operator query for ported Serbian numbers, not a subscriber identity search; Serbian/English; free.
 - [National Assembly current members](https://www.parlament.gov.rs/national-assembly/composition/members-of-parliament/current-legislature.487.html) — Official profiles and list of members of parliament; Serbian/English; free browsing.
 - [Government of Serbia members](https://www.srbija.gov.rs/sastav/en/10/members-of-government.php) — Official cabinet members and offices; Serbian/English; free browsing.
+- [Republic Electoral Commission election results](https://www.rik.parlament.gov.rs/542645/rezultati/) — Official election results with election-type filters, not a national people-search register; Serbian; free public browsing.
 - [Library of Congress digitized Serbian directories](https://guides.loc.gov/serbia-telephone-directories/digital-directories) — Third-party archival address and telephone directories for historical research, not current contacts; English/Serbian originals; free browsing.
 
 ## Public procurement
